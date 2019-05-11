@@ -137,7 +137,7 @@ public class ZooMain {
     Seahorse Kingdra = new Seahorse("Kingdra", Gender.Female, AnimalType.Fish, Species.Seahorse, BronxZoo);
     Seahorse Fanta = new Seahorse("Don", Gender.Female, AnimalType.Fish, Species.Seahorse, BronxZoo);
     Seahorse Z = new Seahorse("Z", Gender.Male, AnimalType.Fish, Species.Seahorse, BronxZoo);
-
+    /*** Lenny Buys something from the GiftShop **/
     GiftShopWorker Tony = new GiftShopWorker("Tony", "Snail");
     GiftShop Guard = new GiftShop("The Lion's Den Giftshop", Tony);
     Lenny.enterGiftShop(Guard);
